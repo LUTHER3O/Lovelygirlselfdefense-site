@@ -1,0 +1,18 @@
+SUPABASE AUTHENTICATION SETUP
+
+The login.html page now uses Supabase Auth for:
+
+CONFIGURATION
+1. Copy .env.example to .env if you have not already done so.
+2. Set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY from your Supabase project.
+3. Keep SUPABASE_SERVICE_ROLE_KEY server-only. Never put it in browser code or expose it using a NEXT_PUBLIC_ variable.
+4. In Supabase, open Authentication -> Providers -> Email and enable email/password sign-in.
+5. In Authentication -> URL Configuration, set the Site URL to your deployed site's origin and add /login to the Redirect URLs.
+6. For local testing, add http://localhost:3000/login to the allowed Redirect URLs.
+7. Choose whether email confirmation is required in Supabase Auth settings.
+
+
+
+If the public Supabase URL or anon key is missing, the login form disables its actions and explains that Supabase is not configured. The public anon key is designed for browser use; protect customer data with appropriate Supabase RLS policies.
+
+The registration form stores the customer's full name in Supabase Auth user metadata. Account authentication does not by itself create profile rows or sync the browser-local cart and wishlist.

@@ -1,0 +1,27 @@
+PRODUCT GALLERY UPDATE
+=====================
+All 86 uploaded product images are now integrated into product-page sliders.
+Each product's galleryImages field in assets/products.json contains its
+category-matched additional images. The original catalogue image remains first.
+The product detail page shows thumbnails plus previous/next arrows and image zoom.
+
+Category image grouping:
+- Mystery Scoop: assortment and keychain contents; the press-on-nails scoop also
+  includes the supplied nail reference images.
+- Safety Keychain Set: matching multi-piece safety/keychain kit images.
+- Single Safety Items: individual accessories, personal-safety items and drinkware.
+- Fashion Bags: bag and tote images.
+- False Nails: nail/product reference images where the category is used.
+
+REAL CUSTOMER REVIEW ATTRIBUTION
+================================
+The product pages for Selfdefense Keychains Mystery Scoop and TOTE BAG include
+short excerpts of actual public customer reviews found on the matching original
+Extenify product pages. Each review block discloses that it was originally
+published on Extenify and links to its source. These are NOT represented as
+verified Lovely Girl Self Defense orders or newly submitted reviews.
+No reviews have been invented for products without a source.
+
+The "Leave a review" form remains a front-end placeholder. To collect and publish
+new verified reviews, connect a review backend (for example WooCommerce reviews
+or another review service) and moderate submissions.

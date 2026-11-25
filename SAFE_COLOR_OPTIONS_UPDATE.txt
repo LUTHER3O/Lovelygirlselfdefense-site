@@ -1,0 +1,8 @@
+SAFE COLOR OPTIONS UPDATE
+=========================
+Added the exact 42 labels from the latest customer screenshot to the mystery
+scoop safe-colour selector, preserving their spelling and presentation.
+The selector heading is "Safe Color (Surprise Please Note)".
+
+These options are appended to the previous expanded colour/design palette,
+so no earlier choices are removed. They remain selectable buttons.

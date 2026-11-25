@@ -1,0 +1,16 @@
+COLOR AND BRAND OPTION UPDATE
+============================
+The selectable colour/design button group has been expanded to match the
+uploaded screenshot. The screenshot's original choices appear first, followed
+by additional colour, pattern, finish and mixed-colour choices.
+
+The same expanded colour/design list is available on products that already
+support colour selection. Existing button selection behaviour is retained.
+
+Mystery Scoop brand labels use concise customer-facing names:
+LV, Gucci, Chanel, Dior, YSL, Prada, Surprise me.
+LV is used instead of Louis Vuitton; YSL is already the standard abbreviation
+for Yves Saint Laurent.
+
+To edit the choices, update each product's `colors` array and, for mystery
+scoop products, its `brandOptions` array in assets/products.json.
