@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Account | Lovely Girl Self Defense</title><link rel="stylesheet" href="assets/style.css"></head>
+<body><div class="announcement">MID-SEASON STYLE · DISCOVER EVERYDAY ESSENTIALS · SHOP LOVELY GIRL</div>
+<header class="header"><a class="brand" href="index.html">Lovely Girl <span>Self Defense</span></a>
+<nav class="nav"><a href="index.html">Home</a><a href="products.html">Shop</a><a href="wishlist.html">Wishlist</a><a href="contact.html">Contact</a></nav>
+<div class="head-actions"><a class="account-link active" href="login.html">My Account</a></div></header>
+<main class="account-page"><section class="account-card">
+<div class="account-intro"><span class="eyebrow">YOUR LOVELY GIRL ACCOUNT</span><h1>Welcome back, lovely.</h1><p>Sign in to keep your wishlist and shopping favourites close.</p></div>
+<div class="account-tabs"><button class="account-tab active" data-account-tab="signin">Sign in</button><button class="account-tab" data-account-tab="register">Create account</button></div>
+<form id="accountForm" class="account-form"><label id="registerNameField" hidden>Full name<input type="text" name="full_name" placeholder="Your full name" autocomplete="name"></label><label>Email address<input type="email" name="email" placeholder="you@example.com" required autocomplete="email"></label>
+<label>Password<input type="password" name="password" placeholder="Enter your password" required minlength="6" autocomplete="current-password"></label>
+<button class="btn full" type="submit" id="accountSubmit">Sign in</button><button class="forgot-link" type="button" id="forgotPassword">Forgot password?</button>
+<p class="account-note" id="accountMessage">Sign in or create a secure customer account with Supabase.</p></form>
+</section></main>
+<footer class="footer"><div class="copyright">© <span id="year"></span> Lovely Girl Self Defense. All rights reserved.</div></footer>
+<script src="assets/store.js"></script><script type="module" src="assets/supabase-auth.js"></script></body></html>
